@@ -13,7 +13,7 @@ On starting this spring boot application, it gets started at the port 9090.
 Service endpoints
 -----------------
 
-1) POST v1/quotes
+**1) POST v1/quotes**
 
  This api allows a quote to be submitted .
 
@@ -29,7 +29,7 @@ Sample Input Json:
 
 Note: timestamp is calculated based on current timestamp and persisted in database
 
-2) GET v1/quotes/getFrequentReceivedSymbols
+**2) GET v1/quotes/getFrequentReceivedSymbols**
 
 This api allows to query the (up to) 5 ticker symbols most frequently received within the last 10 minutes
 
@@ -38,7 +38,7 @@ Sample Output Json:
 ["D05.3I"]
 
 
-3) GET v1/quotes
+**3) GET v1/quotes**
 
 This api retrieves all the available quotes.
 
