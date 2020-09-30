@@ -42,3 +42,12 @@ Sample Output Json:
 
 This api retrieves all the available quotes.
 
+Test cases
+-----------
+
+**Unit Test case**
+QuotesServiceUnitTest contains unit testcase to test the specific service layer methods.
+
+**End to End integration test**
+QuotesApplicationIntegrationTes.java contains the end to end integration test to test the above endpoints.
+
